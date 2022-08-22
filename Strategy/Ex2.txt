@@ -1,0 +1,8 @@
+Diferença entre State e Strategy:
+No padrão State, os objetos das subclasses podem alterar o estado, ou seja, o StateA está 
+executando seu método e no final deste mesmo método muda o estado para 
+StateB( stateContext.setState(new StateB)).
+
+Já no caso do Strategy, a responsabilidade da mudança do estado fica a critério do cliente, 
+ou seja, ele que escolha qual subclasse vai chamar o método(mudando o estado)! a partir de 
+algum algoritmo(por exemplo um IF qualquer!)

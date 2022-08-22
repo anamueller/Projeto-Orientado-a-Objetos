@@ -1,0 +1,10 @@
+Strategy e Command:
+A diferença dos dois é mais na intenção do que na estrutura em si, o Command encapsula uma
+única ação, logo tende a ter um único método genérico e tem a intenção de ser guardado
+por mais tempo para ser executado depois. Strategy é utilizado para customizar um algoritmo
+assim pode ter um número x de métodos específico ao algoritmo.
+
+State e Command:
+O State é um padrão de projeto comportamental que permite que um objeto altere seu 
+comportamento quando seu estado interno muda, enquanto que o Command encapsula uma
+única ação e que não muda ao decorrer.

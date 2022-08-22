@@ -1,0 +1,10 @@
+java.lang.math: não pois para poder utilizar dos métodos dessa classe é necessário
+criar um objeto primeiro.
+
+java.lang.system: sim pois a classe não pode ser instanciada por terceiros e nem extendida.
+
+PrintManager: não pois a classe não contém o construtor privado que vai instanciar o 
+objeto.
+
+PrintSpooler:não pois a classe não contém o construtor privado que vai instanciar o 
+objeto.
